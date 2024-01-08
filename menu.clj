@@ -1,7 +1,6 @@
 (ns menu
   (:require [clojure.string :as str])
   (:require [clojure.java.io :as io])
-  ;(:require [compress :as compress])
   )
 
 
@@ -245,7 +244,7 @@
                 capitalized-output (capitalize-sequence decompressed-numbers)]
             (println "\nOriginal text:" content)
             (println "\nDecompressed text:" capitalized-output)
-            (println "\nTo have correct punctuation, please check option 6, thank you! :D")
+            (println "\nTo have correct punctuation, please view option 6.")
             (println "You can copy paste the decompressed text above and paste it in option 6."))))
       (println "File does not exist."))))
 
