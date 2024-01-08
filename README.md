@@ -12,5 +12,6 @@ A list of common English words, sorted by frequency (ie. more frequent words at 
 ## Decompression
 - Decompress file contents by converting each number to its word from the frequency map.
 - The output of this compression will be printed.
-  
 
+## Symbols/Formatting
+Symbols, such as punctuation marks, are handled in such to conform to proper English conventions.
