@@ -6,7 +6,7 @@ A list of common English words, sorted by frequency (ie. more frequent words at 
 
 ## Compression
 - Compress file contents by converting each word to its value from the frequency map.
-- If a word is not found in this list, then it the original word will remain.
+- If a word is not found in this list, then the original word will remain.
 - The output of this compression will be printed and stored in a file with '.ct' appended.
 
 ## Decompression
